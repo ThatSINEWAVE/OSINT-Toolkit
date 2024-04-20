@@ -58,7 +58,7 @@ Please refer to the individual sections below for detailed information on each c
    - Discord Lookup is a primary tool for users seeking information on Discord. It provides a variety of tools for searching, decoding, and viewing user and server information. The platform offers a centralized hub for Discord-related investigations, streamlining the process for users looking to gather comprehensive data.
 
 3. [Unfurl by DFIR.Blog](https://dfir.blog/unfurl/):
-Description: Unfurl is a tool specifically designed for extracting additional timestamp information from Discord-related URLs of interest. It focuses on Discord IDs, such as those for users, channels, servers, or file attachments. Unfurl can reveal embedded timestamps, aiding in understanding when a particular Discord object was created.
+   - Unfurl is a tool specifically designed for extracting additional timestamp information from Discord-related URLs of interest. It focuses on Discord IDs, such as those for users, channels, servers, or file attachments. Unfurl can reveal embedded timestamps, aiding in understanding when a particular Discord object was created.
 
 4. [Top.gg](https://top.gg/):
    - Top.gg is a platform that, when navigated to with a user's ID (https://top.gg/user/), provides information about their profile. This includes details about bots and servers reviewed on Top.gg, Discord username, and other relevant information. Even after an account deletion, this information may be preserved if the user signed into Top.gg using Discord.
