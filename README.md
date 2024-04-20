@@ -51,22 +51,22 @@ Please refer to the individual sections below for detailed information on each c
 
 ## 2. Discord OSINT Tools
 
-1. [ToolsCord](https://toolscord.com/):
+1. **[ToolsCord](https://toolscord.com/):**
    - An all-in-one toolbox designed for gathering information about servers, bots, and users on Discord. ToolsCord offers a comprehensive set of tools to assist users in exploring and analyzing Discord-related data, making it a versatile resource for server and user investigation.
 
-2. [Discord Lookup](https://discordlookup.com/):
+2. **[Discord Lookup](https://discordlookup.com/):**
    - Discord Lookup is a primary tool for users seeking information on Discord. It provides a variety of tools for searching, decoding, and viewing user and server information. The platform offers a centralized hub for Discord-related investigations, streamlining the process for users looking to gather comprehensive data.
 
-3. [Unfurl by DFIR.Blog](https://dfir.blog/unfurl/):
+3. **[Unfurl by DFIR.Blog](https://dfir.blog/unfurl/):**
 Description: Unfurl is a tool specifically designed for extracting additional timestamp information from Discord-related URLs of interest. It focuses on Discord IDs, such as those for users, channels, servers, or file attachments. Unfurl can reveal embedded timestamps, aiding in understanding when a particular Discord object was created.
 
-4. [Top.gg](https://top.gg/):
+4. **[Top.gg](https://top.gg/):**
    - Top.gg is a platform that, when navigated to with a user's ID (https://top.gg/user/), provides information about their profile. This includes details about bots and servers reviewed on Top.gg, Discord username, and other relevant information. Even after an account deletion, this information may be preserved if the user signed into Top.gg using Discord.
 
-5. [Snow Stamp by Pixelatomy](https://pixelatomy.com/snow-stamp/):
+5. **[Snow Stamp by Pixelatomy](https://pixelatomy.com/snow-stamp/):**
    - Snow Stamp is a snowflake timestamp converter designed for extracting date information from Discord's unique snowflake IDs. It is a valuable tool for understanding the timing of various Discord events, as each snowflake ID carries embedded timestamp data.
 
-6. [DiscordLeaks by Unicorn Riot](https://discordleaks.unicornriot.ninja/discord/):
+6. **[DiscordLeaks by Unicorn Riot](https://discordleaks.unicornriot.ninja/discord/):**
    - DiscordLeaks is a platform that covers leaked messages from servers compromised in the past. It provides constant updates and focuses on servers associated with white supremacism and neo-nazis. DiscordLeaks can be used to uncover interesting facts about individuals, offering insights into their affiliations and activities within Discord communities.
 
 ## 3. General Information Gathering
@@ -103,13 +103,13 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 
 ## 4. Live Analysis on URLs and Files
 
-1. [Triage URL and File Analysis Dashboard](https://tria.ge/dashboard/):
+1. **[Triage URL and File Analysis Dashboard](https://tria.ge/dashboard/):**
     - Triage provides a user-friendly URL and File Analysis Dashboard, empowering users to evaluate the security status of websites. By submitting a URL or uploading a file, users gain access to detailed information about potential threats. The dashboard includes historical data, associated risks, and insights that aid in identifying malicious online content.
 
-2. [VirusTotal File Scanner](https://www.virustotal.com/gui/home/upload/):
+2. **[VirusTotal File Scanner](https://www.virustotal.com/gui/home/upload/):**
     - VirusTotal's File Scanner is a robust tool for analyzing the safety of files. Users can either upload a file or enter a web address for scanning by multiple antivirus engines. The platform generates a comprehensive report detailing potential malware, viruses, and security issues associated with the provided file or URL, offering valuable insights for security assessments.
 
-3. [Hybrid Analysis](https://www.hybrid-analysis.com/):
+3. **[Hybrid Analysis](https://www.hybrid-analysis.com/):**
     - Hybrid Analysis is a comprehensive platform designed for analyzing and understanding the behavior of files and URLs. Users can submit URLs for thorough examination, gaining insights into potential threats, malware behavior, and overall security risks. The platform combines automated analysis with community-driven contributions to deliver detailed reports, enhancing users' ability to assess the security implications of the submitted URLs.
 
 ## 5. Open Source Intelligence
