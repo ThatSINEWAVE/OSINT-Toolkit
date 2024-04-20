@@ -45,6 +45,7 @@ header {
   font-size: 1.5rem;
   margin: 0;
   margin-right: 1rem;
+  color: #f0f0f0;
 }
 
 .header-right {
@@ -56,13 +57,13 @@ header {
   margin-left: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
-  background-color: #6495ed;
+  background-color: #0942a3;
   color: #f0f0f0;
   transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-  background-color: #a0c0ff;
+  background-color: #1254cc;
 }
 
 .sidebar-toggle {
@@ -98,6 +99,7 @@ header {
 .sidebar-header h2 {
   margin: 0;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .sidebar-close {
