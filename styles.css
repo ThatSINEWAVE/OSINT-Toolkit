@@ -173,6 +173,40 @@ main {
   justify-content: center;
 }
 
+#steam-scams, #discord-scams {
+  background-color: rgba(40, 40, 40, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#steam-scams h1, #steam-scams h2, #discord-scams h1, #discord-scams h2 {
+  color: #fff;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#steam-scams p, #discord-scams p {
+  color: #ddd;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+#steam-scams a, #discord-scams a {
+  color: #00bfff;
+}
+
+#steam-scams a:hover, #discord-scams a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -181,6 +215,7 @@ h1 {
 
 h2 {
   text-align: center;
+  margin-bottom: 2rem;
   margin-bottom: 1rem;
 }
 
