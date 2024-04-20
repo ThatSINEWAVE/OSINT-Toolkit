@@ -34,22 +34,24 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 nav a {
-  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   transition: background-color 0.3s ease;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 nav a:hover {
@@ -62,18 +64,25 @@ main {
   margin: 2rem auto;
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: calc(100vh - 8rem); /* Adjust height based on header and footer */
+  overflow: auto;
 }
 
-#home {
+#home, #about {
   background-color: rgba(40, 40, 40, 0.8);
   backdrop-filter: blur(10px);
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
+  width: 100%;
+  max-height: calc(100vh - 8rem); /* Set the maximum height based on viewport height */
+  overflow: auto; /* Add scrollbars if content exceeds the max-height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
@@ -81,18 +90,18 @@ h1 {
   margin-bottom: 1rem;
 }
 
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 /* Category List */
 ul {
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
-}
-
-h2 {
-  margin-bottom: 20px;
-  text-align: center;
 }
 
 li {
