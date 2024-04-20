@@ -83,10 +83,16 @@ h1 {
 
 /* Category List */
 ul {
+  margin-bottom: 20px;
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 li {
