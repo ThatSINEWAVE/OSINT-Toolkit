@@ -257,16 +257,16 @@ li a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #282828;
+  background-color: rgba(40, 40, 40, 0.6);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6495ed;
+  background-color: #0942a3;
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #a0c0ff;
+  background-color: #1254cc;
 }
 
 @media (max-width: 768px) {
