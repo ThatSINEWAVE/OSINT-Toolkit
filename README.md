@@ -14,13 +14,13 @@ Welcome to the OSINT Toolkit repository! This repository serves as a comprehensi
 
 ## Categories
 
-1. Digital Forensics and Security
-2. Discord OSINT Tools
-3. General Information Gathering
-4. Live Analysis on URLs and Files
-5. Open Source Intelligence
-6. URL Safety Checks
-7. Reporting Tools
+1. **Digital Forensics and Security**
+2. **Discord OSINT Tools**
+3. **General Information Gathering**
+4. **Live Analysis on URLs and Files**
+5. **Open Source Intelligence**
+6. **URL Safety Checks**
+7. **Reporting Tools**
 
 Feel free to explore each category to discover various tools and websites relevant to your OSINT investigations.
 
