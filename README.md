@@ -22,15 +22,15 @@ Welcome to the OSINT Toolkit repository! This repository serves as a comprehensi
 6. [**URL Safety Checks**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#6-url-safety-checks)
 7. [**Reporting Tools**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#7-reporting-tools)
 8. [**SINEWAVE's Tools**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#8-sinewaves-tools)
-9. [**Toolkit FAQ**](https://raw.githubusercontent.com/username/repository/branch/path/to/your/file)
-10. [**Steam Scam FAQ**](https://raw.githubusercontent.com/username/repository/branch/path/to/your/file)
-11. [**Discord Scam FAQ**](https://raw.githubusercontent.com/ThatSINEWAVE/repository/branch/path/to/your/file)
+9. [**Toolkit FAQ**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#9-toolkit-faq)
+10. [**Steam Scam FAQ**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#10-steam-scam-faq)
+11. [**Discord Scam FAQ**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#11-discord-scam-faq)
 
 Feel free to explore each category to discover various tools and websites relevant to your OSINT investigations.
 
 Please refer to the individual sections below for detailed information on each category and the tools/sites included. If you're interested in contributing to this repository, please see the "Contributing" section at the end of this README.
 
-## 1. Digital Forensics and Security
+## 1. [Digital Forensics and Security](https://thatsinewave.github.io/OSINT-Toolkit/digital-forensics.html)
 
 1. **[General Image Forensics](https://29a.ch/photo-forensics/#forensic-magnifier/)**:
    - A comprehensive image forensics tool offering a variety of features. It allows users to scrutinize and analyze digital images, making it valuable for detecting alterations or hidden details within images.
@@ -53,7 +53,7 @@ Please refer to the individual sections below for detailed information on each c
 7. **[Facebook Comment Picker](https://commentpicker.com/find-facebook-id.php/)**:
    - This tool is useful for researching Facebook profiles by extracting information from Facebook comments. It assists in finding Facebook IDs, aiding in the identification and analysis of user profiles on the social media platform.
 
-## 2. Discord OSINT Tools
+## 2. [Discord OSINT Tools](https://thatsinewave.github.io/OSINT-Toolkit/discord-osint.html)
 
 1. **[ToolsCord](https://toolscord.com/)**:
    - An all-in-one toolbox designed for gathering information about servers, bots, and users on Discord. ToolsCord offers a comprehensive set of tools to assist users in exploring and analyzing Discord-related data, making it a versatile resource for server and user investigation.
@@ -73,7 +73,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 6. **[DiscordLeaks by Unicorn Riot](https://discordleaks.unicornriot.ninja/discord/)**:
    - DiscordLeaks is a platform that covers leaked messages from servers compromised in the past. It provides constant updates and focuses on servers associated with white supremacism and neo-nazis. DiscordLeaks can be used to uncover interesting facts about individuals, offering insights into their affiliations and activities within Discord communities.
 
-## 3. General Information Gathering
+## 3. [General Information Gathering](https://thatsinewave.github.io/OSINT-Toolkit/general-info.html)
 
 1. **[Bellingcat's Online Investigation Toolkit](https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ):
    - This online toolkit, curated by Bellingcat, provides resources for online investigations. It includes a variety of tools and techniques for researching and analyzing information on the internet.
@@ -105,7 +105,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 10. **[Insecam](http://www.insecam.org/)**:
     - Insecam hosts a global camera database, allowing users to access publicly available camera feeds from around the world. It raises awareness about the importance of securing surveillance cameras and privacy.
 
-## 4. Live Analysis on URLs and Files
+## 4. [Live Analysis on URLs and Files](https://thatsinewave.github.io/OSINT-Toolkit/live-analysis.html)
 
 1. **[Triage URL and File Analysis Dashboard](https://tria.ge/dashboard/)**:
     - Triage provides a user-friendly URL and File Analysis Dashboard, empowering users to evaluate the security status of websites. By submitting a URL or uploading a file, users gain access to detailed information about potential threats. The dashboard includes historical data, associated risks, and insights that aid in identifying malicious online content.
@@ -119,7 +119,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 4. **[Media Analyzer Pro](https://media-analyzer.pro/app)**
     - Media Analyzer Pro offers advanced analysis tools for various media formats, including images, videos, and documents. Users can analyze media files for potential security threats, such as embedded malware or malicious code
 
-## 5. Open Source Intelligence
+## 5. [Open Source Intelligence](https://thatsinewave.github.io/OSINT-Toolkit/open-source-intel.html)
 
 1. **[OSINTLeak](https://beta.osintleak.com/dashboard/)**:
     - An email breach finder tool that helps users identify if their email accounts have been compromised. OSINTLeak provides insights into potential security risks associated with email addresses.
@@ -145,7 +145,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 8. **[GeoSpy.AI](https://geospy.ai/)**:
     - A tool that utilizes artificial intelligence for image location analysis. GeoSpy.AI assists in determining the geographical location of images, making it valuable for geospatial intelligence and investigation purposes.
 
-## 6. URL Safety Checks
+## 6. [URL Safety Checks](https://thatsinewave.github.io/OSINT-Toolkit/url-safety.html)
 
 1. **[VirusTotal URL Scanner](https://www.virustotal.com/gui/home/url/)**:
    - VirusTotal's URL Scanner enables users to assess the security status of URLs by scanning them with multiple antivirus engines. The platform provides a thorough analysis of submitted URLs, checking for potential malware, viruses, and other security issues. It offers a comprehensive report to aid users in understanding the safety of the provided web addresses.
@@ -168,8 +168,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 7. **[Sucuri SiteCheck](https://sitecheck.sucuri.net)**
    - Sucuri SiteCheck is a comprehensive security scanner that analyzes websites for malware, blacklist status, website errors, and out-of-date software. Users can enter a URL to check its security status and receive detailed reports on any issues found.
 
-
-## 7. Reporting Tools
+## 7. [Reporting Tools](https://thatsinewave.github.io/OSINT-Toolkit/reporting.html)
 
 1. **[Discord Report Center](https://discord.com/report)**:
     - The Discord Report Center provides users with a direct channel to report illegal activity from other users. This method bypasses the automated Right-Click > Report method. However, user feedback suggests that the effectiveness of this reporting system can be limited, with responses from Discord support being infrequent. Despite its accessibility, users may experience delays and may not receive timely resolutions to their reports. Please note that this information is based on user experiences and may be subject to change.
@@ -180,7 +179,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 3. **[Phish.Report](https://phish.report)**:
     - Phish.Report is a community-driven platform dedicated to reporting and analyzing phishing emails. Users can submit suspicious emails, allowing others to review and assess potential threats. By crowdsourcing information about phishing attempts, Phish.Report helps raise awareness and provides valuable insights into the tactics used by cybercriminals.
 
-## 8. SINEWAVE's Tools
+## 8. [SINEWAVE's Tools](https://thatsinewave.github.io/OSINT-Toolkit/sinewave-tools.html)
 
 1. **[Malicious URLs DB](https://thatsinewave.github.io/Malicious-URLs-DB)**
     - This serves as a curated JSON file containing lists of websites associated with malicious activities with a nice web interface that allows you to analyse the data. The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
@@ -218,13 +217,13 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 12. **[Discord Identity Generator](https://thatsinewave.github.io/Discord-Identity)**
     - This project is a Discord profile identity generator hosted on GitHub Pages. It enables users to create random Discord profiles with unique usernames, about me sections, nicknames, pronouns, and profile images with up to 100 quadrillion unique profiles.
 
-## 9. Toolkit FAQ
+## 9. [Toolkit FAQ](https://thatsinewave.github.io/OSINT-Toolkit/toolkit-faq.html)
 - The Toolkit FAQ comprises a comprehensive collection of curated lists, each tailored to specific aspects of digital investigation, cybersecurity, and online threat mitigation. From digital forensics to open-source intelligence (OSINT) gathering, each list offers a wealth of resources and platforms aimed at empowering professionals in their efforts to ensure digital security and integrity. These lists encompass tools and services designed to streamline processes, enhance analysis, and facilitate reporting on various online threats. Whether it's investigating data breaches, analyzing URLs for potential threats, or managing security within Discord communities, the Toolkit FAQ provides a diverse range of solutions to address the evolving challenges of cybersecurity and digital investigations.
 
-## 10. Steam Scam FAQ
+## 10. [Steam Scam FAQ](https://thatsinewave.github.io/OSINT-Toolkit/steam-scams.html)
 - The Steam FAQ offers a comprehensive guide aimed at equipping users with the knowledge and strategies necessary to safeguard against common scams and fraudulent activities encountered on the Steam platform. Covering topics ranging from confidence scams to trade scams, the FAQ provides users with valuable insights into the deceptive tactics employed by scammers and offers practical advice on how to identify and avoid falling victim to such schemes. With a focus on promoting skepticism, vigilance, and proactive reporting, the FAQ empowers Steam users to protect their accounts and belongings, contributing to a safer and more secure gaming environment for all.
 
-## 11. Discord Scam FAQ
+## 11. [Discord Scam FAQ](https://thatsinewave.github.io/OSINT-Toolkit/discord-scams.html)
 - The Discord FAQ is a comprehensive guide aimed at informing users about prevalent scams and fraudulent activities encountered within the Discord community. Covering a wide array of topics such as impersonation, free Nitro scams, QR code and download scams, compromised accounts, and reporting malicious content/behavior, the FAQ equips users with essential knowledge and strategies to safeguard themselves against online threats. By promoting skepticism, vigilance, and proactive reporting, it fosters a safer and more secure environment for Discord users, enhancing trust and confidence within the platform's vibrant community.
 
 ## Contributing
