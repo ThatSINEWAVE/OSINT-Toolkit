@@ -14,14 +14,17 @@ Welcome to the OSINT Toolkit repository! This repository serves as a comprehensi
 
 ## Categories
 
-1. **Digital Forensics and Security**
-2. **Discord OSINT Tools**
-3. **General Information Gathering**
-4. **Live Analysis on URLs and Files**
-5. **Open Source Intelligence**
-6. **URL Safety Checks**
-7. **Reporting Tools**
-8. **SINEWAVE's Tools**
+1. [**Digital Forensics and Security**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#1-digital-forensics-and-security)
+2. [**Discord OSINT Tools**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#2-discord-osint-tools)
+3. [**General Information Gathering**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#3-general-information-gathering)
+4. [**Live Analysis on URLs and Files**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#4-live-analysis-on-urls-and-files)
+5. [**Open Source Intelligence**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#5-open-source-intelligence)
+6. [**URL Safety Checks**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#6-url-safety-checks)
+7. [**Reporting Tools**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#7-reporting-tools)
+8. [**SINEWAVE's Tools**](https://github.com/ThatSINEWAVE/OSINT-Toolkit?tab=readme-ov-file#8-sinewaves-tools)
+9. [**Toolkit FAQ**](https://raw.githubusercontent.com/username/repository/branch/path/to/your/file)
+10. [**Steam Scam FAQ**](https://raw.githubusercontent.com/username/repository/branch/path/to/your/file)
+11. [**Discord Scam FAQ**](https://raw.githubusercontent.com/ThatSINEWAVE/repository/branch/path/to/your/file)
 
 Feel free to explore each category to discover various tools and websites relevant to your OSINT investigations.
 
@@ -215,6 +218,14 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 12. **[Discord Identity Generator](https://thatsinewave.github.io/Discord-Identity)**
     - This project is a Discord profile identity generator hosted on GitHub Pages. It enables users to create random Discord profiles with unique usernames, about me sections, nicknames, pronouns, and profile images with up to 100 quadrillion unique profiles.
 
+## 9. Toolkit FAQ
+- The Toolkit FAQ comprises a comprehensive collection of curated lists, each tailored to specific aspects of digital investigation, cybersecurity, and online threat mitigation. From digital forensics to open-source intelligence (OSINT) gathering, each list offers a wealth of resources and platforms aimed at empowering professionals in their efforts to ensure digital security and integrity. These lists encompass tools and services designed to streamline processes, enhance analysis, and facilitate reporting on various online threats. Whether it's investigating data breaches, analyzing URLs for potential threats, or managing security within Discord communities, the Toolkit FAQ provides a diverse range of solutions to address the evolving challenges of cybersecurity and digital investigations.
+
+## 10. Steam Scam FAQ
+- The Steam FAQ offers a comprehensive guide aimed at equipping users with the knowledge and strategies necessary to safeguard against common scams and fraudulent activities encountered on the Steam platform. Covering topics ranging from confidence scams to trade scams, the FAQ provides users with valuable insights into the deceptive tactics employed by scammers and offers practical advice on how to identify and avoid falling victim to such schemes. With a focus on promoting skepticism, vigilance, and proactive reporting, the FAQ empowers Steam users to protect their accounts and belongings, contributing to a safer and more secure gaming environment for all.
+
+## 11. Discord Scam FAQ
+- The Discord FAQ is a comprehensive guide aimed at informing users about prevalent scams and fraudulent activities encountered within the Discord community. Covering a wide array of topics such as impersonation, free Nitro scams, QR code and download scams, compromised accounts, and reporting malicious content/behavior, the FAQ equips users with essential knowledge and strategies to safeguard themselves against online threats. By promoting skepticism, vigilance, and proactive reporting, it fosters a safer and more secure environment for Discord users, enhancing trust and confidence within the platform's vibrant community.
 
 ## Contributing
 
