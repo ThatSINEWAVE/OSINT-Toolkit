@@ -21,6 +21,7 @@ Welcome to the OSINT Toolkit repository! This repository serves as a comprehensi
 5. **Open Source Intelligence**
 6. **URL Safety Checks**
 7. **Reporting Tools**
+8. **SINEWAVE's Tools**
 
 Feel free to explore each category to discover various tools and websites relevant to your OSINT investigations.
 
@@ -112,6 +113,9 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 3. **[Hybrid Analysis](https://www.hybrid-analysis.com/)**:
     - Hybrid Analysis is a comprehensive platform designed for analyzing and understanding the behavior of files and URLs. Users can submit URLs for thorough examination, gaining insights into potential threats, malware behavior, and overall security risks. The platform combines automated analysis with community-driven contributions to deliver detailed reports, enhancing users' ability to assess the security implications of the submitted URLs.
 
+4. **[Media Analyzer Pro](https://media-analyzer.pro/app)**
+    - Media Analyzer Pro offers advanced analysis tools for various media formats, including images, videos, and documents. Users can analyze media files for potential security threats, such as embedded malware or malicious code
+
 ## 5. Open Source Intelligence
 
 1. **[OSINTLeak](https://beta.osintleak.com/dashboard/)**:
@@ -152,13 +156,65 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 4. **[Cloudflare Radar Scan](https://radar.cloudflare.com/scan/)**:
    - Cloudflare Radar Scan is a service that offers insights into the security and performance of websites. By scanning a website, it assesses potential vulnerabilities, security issues, and performance metrics. The tool is valuable for website owners and administrators who want to proactively address concerns, ensuring a safer and more efficient online presence.
 
+5. **[PhishTank](https://www.phishtank.com)**
+   - PhishTank is a collaborative clearinghouse for data and information about phishing on the Internet. It provides a platform for users to report and verify phishing websites, helping to protect internet users from falling victim to phishing scams.
+
+6. **[AbuseIPDB](https://www.abuseipdb.com)**
+   - buseIPDB is a free service that offers a database of IP addresses reported for malicious activity, such as hacking attempts, spamming, and other forms of abuse. Users can search for IP addresses to determine if they have been reported for suspicious behavior, helping to identify and block potential threats to network security.
+
+7. **[Sucuri SiteCheck](https://sitecheck.sucuri.net)**
+   - Sucuri SiteCheck is a comprehensive security scanner that analyzes websites for malware, blacklist status, website errors, and out-of-date software. Users can enter a URL to check its security status and receive detailed reports on any issues found.
+
+
 ## 7. Reporting Tools
 
 1. **[Discord Report Center](https://discord.com/report)**:
     - The Discord Report Center provides users with a direct channel to report illegal activity from other users. This method bypasses the automated Right-Click > Report method. However, user feedback suggests that the effectiveness of this reporting system can be limited, with responses from Discord support being infrequent. Despite its accessibility, users may experience delays and may not receive timely resolutions to their reports. Please note that this information is based on user experiences and may be subject to change.
 
-2. **Soon™ (Soon™ URL)**:
-    - Soon™
+2. **[Netcraft Phishing](https://report.netcraft.com/report)**:
+    - Netcraft's Phishing Site Feed provides a platform for reporting suspected phishing websites. Users can submit URLs they believe to be phishing sites, contributing to a collective effort to identify and combat online phishing attacks.
+
+3. **[Phish.Report](https://phish.report)**:
+    - Phish.Report is a community-driven platform dedicated to reporting and analyzing phishing emails. Users can submit suspicious emails, allowing others to review and assess potential threats. By crowdsourcing information about phishing attempts, Phish.Report helps raise awareness and provides valuable insights into the tactics used by cybercriminals.
+
+## 8. SINEWAVE's Tools
+
+1. **[Malicious URLs DB](https://thatsinewave.github.io/Malicious-URLs-DB)**
+    - This serves as a curated JSON file containing lists of websites associated with malicious activities with a nice web interface that allows you to analyse the data. The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.
+
+2. **[Password Generator](https://thatsinewave.github.io/Password-Generator)**
+    - This repository contains a simple password generator application implemented in Python using the CustomTkinter library for the graphical user interface as a script or directly in your browser. The application allows users to generate up to random passwords with various customizable options.
+
+3. **[Discord Invite Finder](https://github.com/ThatSINEWAVE/Discord-Invite-Finder)**
+    - This Python script is designed to search for active Discord invites links by generating random invite IDs and checking their status. It utilizes the Discord API to verify whether an invitation is active or not and saves the results in JSON format.
+
+4. **[URL Analysis Tool](https://github.com/ThatSINEWAVE/URL-Analysis-Tool)**
+    - This repository contains a Python-based tool for analyzing URLs and detecting potential threats using various cybersecurity services like VirusTotal and URLScan.io. The tool combines the scan results with WHOIS information and provides a user-friendly interface to tweet the analysis findings or custom messages.
+
+5. **[IP Information Discord Bot](https://github.com/ThatSINEWAVE/IP-Lookup-Bot)**
+    - This is a Discord bot that allows users to check detailed information about any IP address using the ip-api.com API. The bot provides information such as country, city, region, district, zip code, latitude, longitude, timezone, currency, ISP, organization, AS number, AS name, reverse DNS, mobile status, proxy status, and hosting status.
+
+6. **[GuardianWatch-Bot](https://github.com/ThatSINEWAVE/GuardianWatch-Bot)**
+    - This bot is your go-to tool for gathering and organizing information about Discord server members efficiently. Written entirely in Python and leveraging the power of Discord's Bot API along with the Google Sheets API, this bot offers versatility and ease of use across its three distinct modes: gsheets-mode, csv-mode, and combined-mode.
+
+7. **[LinkWarden-Bot](https://github.com/ThatSINEWAVE/LinkWarden-Bot)**
+    - This Discord bot, designed for personal and community use, enhances server security by scrutinizing links shared within Discord channels. It leverages the VirusTotal API, WHOIS lookups, and urlscan.io scans to provide comprehensive real-time analysis, helping maintain a safe online environment for members.
+
+8. **[Netcraft API Client](https://github.com/ThatSINEWAVE/Netcraft-API-Client)**
+    - This Python script provides a command-line interface for interacting with the Netcraft API. It allows users to perform various actions such as reporting malicious URLs, malicious emails, and incorrectly blocked URLs, as well as retrieving details about submitted reports.
+
+9. **[DNS-Filters](https://github.com/ThatSINEWAVE/DNS-Filters)**
+    - This repository houses a curated collection of DNS filter lists, accumulated over several years. These lists are designed to enhance network security and efficiency by blocking unwanted or harmful domains.
+
+10. **[The Discord Invite Project](https://thatsinewave.github.io/Discord-Invite-Project)**
+    - This repository serves as an educational and research platform exploring the concept of creating a database to track and analyze Discord invite links. The project aims to assist in Open Source Intelligence (OSINT) investigations by providing tools to identify and study Discord servers, including potentially malicious ones.
+
+11. **[Discord Honeypot System - CONCEPT](https://github.com/ThatSINEWAVE/Discord-Honeypot-System)**
+    - The Discord Honeypot System is a sophisticated monitoring tool designed to enhance server security and moderation efficiency. Utilizing multiple Discord accounts, each running in dedicated Virtual Machines (VMs) or Docker containers, this Python-based system automates the surveillance of direct message (DM) activity. Its primary objective is to detect, capture, and relay suspicious or unwanted DM communications to a specific channel within a designated server for further action by the moderation team.
+
+12. **[Discord Identity Generator](https://thatsinewave.github.io/Discord-Identity)**
+    - This project is a Discord profile identity generator hosted on GitHub Pages. It enables users to create random Discord profiles with unique usernames, about me sections, nicknames, pronouns, and profile images with up to 100 quadrillion unique profiles.
+
 
 ## Contributing
 
