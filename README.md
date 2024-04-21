@@ -219,16 +219,21 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 
 ## 9. [Toolkit FAQ](https://thatsinewave.github.io/OSINT-Toolkit/toolkit-faq.html)
 - The Toolkit FAQ comprises a comprehensive collection of curated lists, each tailored to specific aspects of digital investigation, cybersecurity, and online threat mitigation. From digital forensics to open-source intelligence (OSINT) gathering, each list offers a wealth of resources and platforms aimed at empowering professionals in their efforts to ensure digital security and integrity. These lists encompass tools and services designed to streamline processes, enhance analysis, and facilitate reporting on various online threats. Whether it's investigating data breaches, analyzing URLs for potential threats, or managing security within Discord communities, the Toolkit FAQ provides a diverse range of solutions to address the evolving challenges of cybersecurity and digital investigations.
+- The contents of this page can also be viewed in the [Toolkit-FAQ.md file](https://github.com/ThatSINEWAVE/OSINT-Toolkit/blob/main/faq/Toolkit-FAQ.md)
 
 ## 10. [Steam Scam FAQ](https://thatsinewave.github.io/OSINT-Toolkit/steam-scams.html)
 - The Steam FAQ offers a comprehensive guide aimed at equipping users with the knowledge and strategies necessary to safeguard against common scams and fraudulent activities encountered on the Steam platform. Covering topics ranging from confidence scams to trade scams, the FAQ provides users with valuable insights into the deceptive tactics employed by scammers and offers practical advice on how to identify and avoid falling victim to such schemes. With a focus on promoting skepticism, vigilance, and proactive reporting, the FAQ empowers Steam users to protect their accounts and belongings, contributing to a safer and more secure gaming environment for all.
+- The contents of this page can also be viewed in the [Steam-Scam-FAQ.md file](https://github.com/ThatSINEWAVE/OSINT-Toolkit/blob/main/faq/Steam-Scams-FAQ.md)
 
 ## 11. [Discord Scam FAQ](https://thatsinewave.github.io/OSINT-Toolkit/discord-scams.html)
 - The Discord FAQ is a comprehensive guide aimed at informing users about prevalent scams and fraudulent activities encountered within the Discord community. Covering a wide array of topics such as impersonation, free Nitro scams, QR code and download scams, compromised accounts, and reporting malicious content/behavior, the FAQ equips users with essential knowledge and strategies to safeguard themselves against online threats. By promoting skepticism, vigilance, and proactive reporting, it fosters a safer and more secure environment for Discord users, enhancing trust and confidence within the platform's vibrant community.
+- The contents of this page can also be viewed in the [Discord-Scam-FAQ.md file](https://github.com/ThatSINEWAVE/OSINT-Toolkit/blob/main/faq/Discord-Scams-FAQ.md)
 
 ## Contributing
 
-Your contributions to this OSINT toolkit are highly appreciated! If you know of any valuable tools or websites that are not listed here, please feel free to contribute by submitting a pull request. Here's how you can contribute:
+Your contributions to this OSINT toolkit are highly appreciated! 
+If you know of any valuable tools or websites that are not listed here, please feel free to contribute by submitting a pull request. 
+Here's how you can contribute:
 
 1. Fork this repository.
 2. Add your tool/website to the appropriate category, providing a brief description and any relevant information.
@@ -236,3 +241,8 @@ Your contributions to this OSINT toolkit are highly appreciated! If you know of 
 4. Create a pull request.
 
 Thank you for helping to make this OSINT toolkit a valuable resource for the community!
+
+## License
+
+This repository is provided under the GLWTS Public License. 
+By utilizing the contents of this repository, you agree to abide by the terms of this license.
