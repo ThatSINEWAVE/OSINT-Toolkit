@@ -74,8 +74,8 @@ header {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -250px;
-  width: 250px;
+  left: -350px;
+  width: 350px;
   height: 100vh;
   background-color: rgba(40, 40, 40, 0.8);
   backdrop-filter: blur(10px);
@@ -90,7 +90,9 @@ header {
 
 .sidebar-header {
   display: flex;
+  height: 74px;
   justify-content: space-between;
+  text-align: center;
   align-items: center;
   padding: 1rem;
   background-color: rgba(30, 30, 30, 0.8);
@@ -113,7 +115,7 @@ header {
 
 .sidebar nav a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2.5rem;
   margin-bottom: 0.5rem;
   border-radius: 0.25rem;
   transition: background-color 0.3s ease;
