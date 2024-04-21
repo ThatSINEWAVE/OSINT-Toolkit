@@ -90,18 +90,29 @@ header {
 
 .sidebar-header {
   display: flex;
-  height: 74px;
+  height: 73px;
   justify-content: space-between;
-  text-align: center;
   align-items: center;
   padding: 1rem;
   background-color: rgba(30, 30, 30, 0.8);
 }
 
+.sidebar-header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar-header-content h2 {
+  font-size: 1.2rem;
+  width: fit-content;
+}
+
 .sidebar-header h2 {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
+  width: 100%;
 }
 
 .sidebar-close {
