@@ -238,11 +238,12 @@ Here's how you can contribute:
 1. Fork this repository.
 2. Add your tool/website to the appropriate category, providing a brief description and any relevant information.
 3. Ensure your additions follow the existing format.
-4. Create a pull request.
+4. Create a pull request and explain your changes.
 
 Thank you for helping to make this OSINT toolkit a valuable resource for the community!
 
-## License
+## [License](https://thatsinewave.github.io/OSINT-Toolkit/license.html)
 
-This repository is provided under the GLWTS Public License. 
+This repository is provided under the [GLWTS Public License](https://github.com/ThatSINEWAVE/OSINT-Toolkit/blob/main/LICENSE). 
+
 By utilizing the contents of this repository, you agree to abide by the terms of this license.
