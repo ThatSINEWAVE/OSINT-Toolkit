@@ -53,13 +53,54 @@ header {
   align-items: center;
 }
 
+.translation-dropdown {
+  position: relative;
+  margin-right: 1rem;
+}
+
+#language-select {
+  margin-left: 1rem;
+  padding: 0.75rem 2rem 0.75rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  background-color: #0942a3;
+  color: #f0f0f0;
+  border: none;
+  text-align: center;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  position: relative;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z" fill="%23fff"/></svg>');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 0.75rem) center;
+  background-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#language-select:hover,
+#language-select:focus {
+  background-color: #1254cc;
+}
+
+#language-select option {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
 .btn {
   margin-left: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   background-color: #0942a3;
-  color: #f0f0f0;
+  color: #FFFFFF;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -86,6 +127,20 @@ header {
 
 .sidebar.open {
   left: 0;
+}
+
+.sidebar-close {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: inherit;
+}
+
+.sidebar-close .fa-times {
+  margin-right: 0.5rem;
 }
 
 .sidebar-header {
