@@ -30,6 +30,12 @@ Feel free to explore each category to discover various tools and websites releva
 
 Please refer to the individual sections below for detailed information on each category and the tools/sites included. If you're interested in contributing to this repository, please see the "Contributing" section at the end of this README.
 
+<div align="center">
+
+# [Join my discord server](https://discord.gg/2nHHHBWNDw)
+
+</div>
+
 ## 1. [Digital Forensics and Security](https://thatsinewave.github.io/OSINT-Toolkit/digital-forensics.html)
 
 1. **[General Image Forensics](https://29a.ch/photo-forensics/#forensic-magnifier/)**:
