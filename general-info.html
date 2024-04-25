@@ -2,166 +2,221 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence Center - Information Gathering</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
-  <link rel="manifest" href="site-data/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Intelligence Center - Home</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS FILES -->        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">      
+
 </head>
 
-<body>
+<body id="top">
 
-  <header>
-    <div class="header-left">
-      <a href="index.html"><h1>Threat Intelligence Center</h1></a>
-      <div class="sidebar-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-    <div class="header-right">
-      <a href="https://github.com/ThatSINEWAVE/OSINT-Toolkit" class="btn">GitHub</a>
-      <a href="https://ko-fi.com/thatsinewave" class="btn">Support Me</a>
-      <a href="https://discord.gg/2nHHHBWNDw" class="btn">Discord</a>
-      <div class="translation-dropdown">
-        <select id="language-select">
-          <option value="en">English</option>
-          <option value="ro">Romanian</option>
-        </select>
-      </div>
-    </div>
-  </header>
+<main>
 
-  <aside class="sidebar">
-    <div class="sidebar-header">
-      <div class="sidebar-header-content">
-        <h2>Menu</h2>
-        <button class="sidebar-close">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi-back"></i>
+                <span>Threat Intelligence Center</span>
+            </a>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="toolkit-faq.html">Toolkit FAQ</a>
-      <a href="discord-scams.html">Discord FAQ</a>
-      <a href="steam-scams.html">Steam FAQ</a>
-      <a href="digital-forensics.html">Digital Forensics</a>
-      <a href="discord-osint.html">Discord OSINT</a>
-      <a href="general-info.html">Info Gathering</a>
-      <a href="live-analysis.html">Live Analysis</a>
-      <a href="open-source-intel.html">Open Intel</a>
-      <a href="url-safety.html">URL Safety</a>
-      <a href="reporting.html">Reporting Tools</a>
-      <a href="sinewave-tools.html">SINEWAVE's Tools</a>
-      <a href="about.html">About</a>
-      <a href="license.html">License</a>
+            <div class="d-lg-none ms-auto me-4">
+                <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_3">How does it work?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://discord.gg/2nHHHBWNDw">Discord</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/ThatSINEWAVE/OSINT-Toolkit">Github</a></li>
+                            <li><a class="dropdown-item" href="https://ko-fi.com/thatsinewave">Support Me</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="">English</a></li>
+                            <li><a class="dropdown-item" href="">Romanian</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="d-none d-lg-block">
+                    <a href="#top" class="navbar-icon bi-arrow-up smoothscroll"></a>
+                </div>
+            </div>
+        </div>
     </nav>
+    
+    <header class="site-header d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
 
-  </aside>
+                <div class="col-lg-5 col-12 mb-5">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
 
-  <main>
+                            <li class="breadcrumb-item active" aria-current="page">Info Gathering</li>
+                        </ol>
+                    </nav>
 
-    <section id="category-pages">
+                    <h2 class="text-white"><br>Information Gathering</h2>
 
-      <h1>Information Gathering</h1>
-      <ul>
-        <li>
-          <h3>1. Belling-cat's Online Investigation Toolkit</h3>
-          <a href="https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ" target="_blank">https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ</a>
-          <p>This online toolkit, curated by Bellingcat, provides resources for online investigations.</p>
-          <p>It includes a variety of tools and techniques for researching and analyzing information on the internet.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>2. Hunter.io</h3>
-          <a href="https://hunter.io" target="_blank">https://hunter.io</a>
-          <p>Hunter.io is a popular tool for finding email addresses using web crawlers.</p>
-          <p>It assists users in discovering email addresses associated with a particular domain, making it valuable for outreach and contact purposes.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>3. Shodan</h3>
-          <a href="https://shodan.io" target="_blank">https://shodan.io</a>
-          <p>Shodan is an internet-connected device search engine.</p>
-          <p>It assists in finding specific devices based on various criteria, offering insights into potential vulnerabilities and aiding in targeted cyber assessments.</p>
-          <p>Shodan provides both free and paid plans.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>4. IntelX</h3>
-          <a href="https://intelx.io" target="_blank">https://intelx.io</a>
-          <p>IntelX is a large search engine for leaked databases.</p>
-          <p>It enables users to search and access information from various data breaches, aiding in the identification and analysis of compromised data.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>5. Epieos</h3>
-          <a href="https://epieos.com" target="_blank">https://epieos.com</a>
-          <p>Epieos is a platform for email and phone number searches.</p>
-          <p>It assists users in retrieving information related to individuals based on their email addresses or phone numbers.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>6. What's My Name</h3>
-          <a href="https://whatsmyname.app" target="_blank">https://whatsmyname.app</a>
-          <p>A username searcher tool that allows users to search for a specific username across multiple platforms.</p>
-          <p>It aids in identifying online profiles associated with a particular username.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>7. 0t.rocks MultiSearch</h3>
-          <a href="https://search.0t.rocks" target="_blank">https://search.0t.rocks</a>
-          <p>A multi-search tool that enables users to simultaneously search across multiple platforms and databases.</p>
-          <p>It streamlines the process of gathering information from various sources.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>8. FaceCheck.ID</h3>
-          <a href="https://facecheck.id" target="_blank">https://facecheck.id</a>
-          <p>An AI-based face recognition tool that can analyze and identify faces in images.</p>
-          <p>FaceCheck.ID provides a solution for facial recognition applications, potentially aiding in the verification or identification of individuals.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>9. GeoEstimation by TIB</h3>
-          <a href="https://labs.tib.eu/geoestimation" target="_blank">https://labs.tib.eu/geoestimation</a>
-          <p>GeoEstimation is a tool for estimating geographical locations based on provided data.</p>
-          <p>It utilizes technology to determine the likely geographic origin of a given set of information.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>10. Insecam</h3>
-          <a href="http://www.insecam.org" target="_blank">http://www.insecam.org</a>
-          <p>Insecam hosts a global camera database, allowing users to access publicly available camera feeds from around the world.</p>
-          <p>It raises awareness about the importance of securing surveillance cameras and privacy.</p>
-        </li>
-      </ul>
+                </div>
 
+            </div>
+        </div>
+    </header>
+
+    <section class="topics-detail-section section-padding" id="topics-detail">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 m-auto">
+
+                    <h3>1. Belling-cat's Online Investigation Toolkit</h3>
+                    <a href="https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ" target="_blank">https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ</a>
+                    <p>This online toolkit, curated by Bellingcat, provides resources for online investigations.</p>
+                    <p>It includes a variety of tools and techniques for researching and analyzing information on the internet.</p>
+
+                    <h3>2. Hunter.io</h3>
+                    <a href="https://hunter.io" target="_blank">https://hunter.io</a>
+                    <p>Hunter.io is a popular tool for finding email addresses using web crawlers.</p>
+                    <p>It assists users in discovering email addresses associated with a particular domain, making it valuable for outreach and contact purposes.</p>
+
+                    <h3>3. Shodan</h3>
+                    <a href="https://shodan.io" target="_blank">https://shodan.io</a>
+                    <p>Shodan is an internet-connected device search engine.</p>
+                    <p>It assists in finding specific devices based on various criteria, offering insights into potential vulnerabilities and aiding in targeted cyber assessments.</p>
+                    <p>Shodan provides both free and paid plans.</p>
+
+                    <h3>4. IntelX</h3>
+                    <a href="https://intelx.io" target="_blank">https://intelx.io</a>
+                    <p>IntelX is a large search engine for leaked databases.</p>
+                    <p>It enables users to search and access information from various data breaches, aiding in the identification and analysis of compromised data.</p>
+
+                    <h3>5. Epieos</h3>
+                    <a href="https://epieos.com" target="_blank">https://epieos.com</a>
+                    <p>Epieos is a platform for email and phone number searches.</p>
+                    <p>It assists users in retrieving information related to individuals based on their email addresses or phone numbers.</p>
+
+                    <h3>6. What's My Name</h3>
+                    <a href="https://whatsmyname.app" target="_blank">https://whatsmyname.app</a>
+                    <p>A username searcher tool that allows users to search for a specific username across multiple platforms.</p>
+                    <p>It aids in identifying online profiles associated with a particular username.</p>
+
+                    <h3>7. 0t.rocks MultiSearch</h3>
+                    <a href="https://search.0t.rocks" target="_blank">https://search.0t.rocks</a>
+                    <p>A multi-search tool that enables users to simultaneously search across multiple platforms and databases.</p>
+                    <p>It streamlines the process of gathering information from various sources.</p>
+
+                    <h3>8. FaceCheck.ID</h3>
+                    <a href="https://facecheck.id" target="_blank">https://facecheck.id</a>
+                    <p>An AI-based face recognition tool that can analyze and identify faces in images.</p>
+                    <p>FaceCheck.ID provides a solution for facial recognition applications, potentially aiding in the verification or identification of individuals.</p>
+
+                    <h3>9. GeoEstimation by TIB</h3>
+                    <a href="https://labs.tib.eu/geoestimation" target="_blank">https://labs.tib.eu/geoestimation</a>
+                    <p>GeoEstimation is a tool for estimating geographical locations based on provided data.</p>
+                    <p>It utilizes technology to determine the likely geographic origin of a given set of information.</p>
+
+                    <h3>10. Insecam</h3>
+                    <a href="http://www.insecam.org" target="_blank">http://www.insecam.org</a>
+                    <p>Insecam hosts a global camera database, allowing users to access publicly available camera feeds from around the world.</p>
+                    <p>It raises awareness about the importance of securing surveillance cameras and privacy.</p>
+
+                </div>
+
+            </div>
+        </div>
     </section>
 
-  </main>
+</main>
 
-  <footer>
-    <p>GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
-  </footer>
+<footer class="site-footer section-padding section-bg">
+    <div class="container">
+        <div class="row">
 
-  <script src="script.js"></script>
+            <div class="col-lg-3 col-md-4 col-6">
+                <h6 class="site-footer-title mb-3">Threat Intelligence Center</h6>
+
+                <ul class="site-footer-links">
+                    <li class="site-footer-link-item">
+                        <a href="#section_1" class="site-footer-link">Home</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_2" class="site-footer-link">Browse Topics</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_3" class="site-footer-link">How does it work?</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_4" class="site-footer-link">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+
+                <p class="copyright-text mt-lg-5 mt-4">GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
+                
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>
+

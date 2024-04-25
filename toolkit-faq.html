@@ -2,148 +2,231 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence Center - About</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
-  <link rel="manifest" href="site-data/site.webmanifest">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threat Intelligence Center - Home</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- CSS FILES -->        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">      
+
 </head>
 
-<body>
+<body id="top">
 
-  <header>
-    <div class="header-left">
-      <a href="index.html"><h1>Threat Intelligence Center</h1></a>
-      <div class="sidebar-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-    <div class="header-right">
-      <a href="https://github.com/ThatSINEWAVE/OSINT-Toolkit" class="btn">GitHub</a>
-      <a href="https://ko-fi.com/thatsinewave" class="btn">Support Me</a>
-      <a href="https://discord.gg/2nHHHBWNDw" class="btn">Discord</a>
-      <div class="translation-dropdown">
-        <select id="language-select">
-          <option value="en">English</option>
-          <option value="ro">Romanian</option>
-        </select>
-      </div>
-    </div>
-  </header>
+<main>
 
-  <aside class="sidebar">
-    <div class="sidebar-header">
-      <div class="sidebar-header-content">
-        <h2>Menu</h2>
-        <button class="sidebar-close">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi-back"></i>
+                <span>Threat Intelligence Center</span>
+            </a>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="toolkit-faq.html">Toolkit FAQ</a>
-      <a href="discord-scams.html">Discord FAQ</a>
-      <a href="steam-scams.html">Steam FAQ</a>
-      <a href="digital-forensics.html">Digital Forensics</a>
-      <a href="discord-osint.html">Discord OSINT</a>
-      <a href="general-info.html">Info Gathering</a>
-      <a href="live-analysis.html">Live Analysis</a>
-      <a href="open-source-intel.html">Open Intel</a>
-      <a href="url-safety.html">URL Safety</a>
-      <a href="reporting.html">Reporting Tools</a>
-      <a href="sinewave-tools.html">SINEWAVE's Tools</a>
-      <a href="about.html">About</a>
-      <a href="license.html">License</a>
+            <div class="d-lg-none ms-auto me-4">
+                <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_3">How does it work?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="https://discord.gg/2nHHHBWNDw">Discord</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/ThatSINEWAVE/OSINT-Toolkit">Github</a></li>
+                            <li><a class="dropdown-item" href="https://ko-fi.com/thatsinewave">Support Me</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+
+                        <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                            <li><a class="dropdown-item" href="">English</a></li>
+                            <li><a class="dropdown-item" href="">Romanian</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="d-none d-lg-block">
+                    <a href="#top" class="navbar-icon bi-arrow-up smoothscroll"></a>
+                </div>
+            </div>
+        </div>
     </nav>
+    
+    <header class="site-header d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
 
-  </aside>
+                <div class="col-lg-5 col-12 mb-5">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
 
-  <main>
+                            <li class="breadcrumb-item active" aria-current="page">Toolkit FAQ</li>
+                        </ol>
+                    </nav>
 
-    <section id="steam-scams">
+                    <h2 class="text-white"><br>Toolkit FAQ</h2>
 
-      <h1>Toolkit FAQ</h1>
-      <h2>1. <a href="digital-forensics.html" target="_blank">DIGITAL FORENSICS</a></h2>
-      <p>The Digital Forensics list comprises a collection of powerful tools and resources essential for investigating and analyzing digital data.</p>
-      <p>From image forensics tools like Forensic Magnifier to database checkers such as Dehashed, each resource serves a specific purpose in uncovering digital evidence.</p>
-      <p>Additionally, platforms like Leakedcheck_bot on Telegram and Exposed.lol offer convenient means to check for data breaches and retrieve public information.</p>
-      <p>For more extensive searches, the Google Hacking Database provides a wealth of search queries for uncovering specific data on the internet.</p>
-      <p>Overall, these tools and platforms empower digital investigators and cybersecurity professionals in their efforts to ensure digital security and integrity.</p>
-      <p></p>
-      <p></p>
-      <h2>2. <a href="discord-osint.html" target="_blank">DISCORD OSINT</a></h2>
-      <p>The Discord OSINT list offers a suite of tools tailored for gathering intelligence from Discord.</p>
-      <p>Platforms like ToolsCord and Discord Lookup provide comprehensive toolkits for exploring server, bot, and user data.</p>
-      <p>Unfurl by DFIR.Blog specializes in extracting timestamp information from Discord-related URLs, aiding in understanding creation timelines.</p>
-      <p>Top.gg offers insights into Discord profiles, including bot and server reviews, even after account deletion.</p>
-      <p>Snow Stamp by Pixelatomy facilitates the extraction of date information from Discord's unique IDs, while DiscordLeaks by Unicorn Riot focuses on leaked messages from compromised servers, offering insights into individuals' activities within Discord communities.</p>
-      <p></p>
-      <p></p>
-      <h2>3. <a href="general-info.html" target="_blank">INFORMATION GATHERING</a></h2>
-      <p>The Information Gathering list encompasses a range of tools and platforms essential for gathering intelligence online.</p>
-      <p>Curated by Bellingcat, the Online Investigation Toolkit offers a comprehensive array of resources for digital investigations.</p>
-      <p>Hunter.io facilitates the discovery of email addresses associated with specific domains, aiding in outreach and contact efforts.</p>
-      <p>Shodan serves as an internet-connected device search engine, offering insights into potential vulnerabilities and aiding in cyber assessments.</p>
-      <p>Platforms like IntelX and Epieos provide access to leaked databases and facilitate email and phone number searches, respectively, enhancing digital reconnaissance capabilities.</p>
-      <p></p>
-      <p></p>
-      <h2>4. <a href="live-analysis.html" target="_blank">LIVE ANALYSIS</a></h2>
-      <p>The Live Analysis list features a collection of robust tools for real-time assessment and analysis of online content.</p>
-      <p>Triage's URL and File Analysis Dashboard provide detailed security evaluations for websites, aiding in the detection of potential threats.</p>
-      <p>VirusTotal's File Scanner offers comprehensive reports on file safety, generated by multiple antivirus engines, enhancing security assessments.</p>
-      <p>Hybrid Analysis provides in-depth insights into file and URL behavior, leveraging automated analysis and community contributions for thorough reports.</p>
-      <p>Media Analyzer Pro equips users with advanced tools for analyzing various media formats, empowering effective identification and mitigation of security risks associated with media files.</p>
-      <p></p>
-      <p></p>
-      <h2>5. <a href="open-source-intel.html" target="_blank">OPEN INTELLIGENCE</a></h2>
-      <p>The Open Intelligence list offers a range of tools and platforms essential for gathering open-source intelligence (OSINT).</p>
-      <p>OSINTLeak aids in identifying email account breaches, providing insights into potential security risks.</p>
-      <p>OSINT Framework serves as a curated list of free OSINT tools, offering a comprehensive collection for online investigations.</p>
-      <p> IntelX and Breach Directory enable users to search and access information from leaked databases, aiding in the identification of compromised data. </p>
-      <p>Hashes.com Hash Decryptor assists in revealing original passwords from breached directories, enhancing security assessments.</p>
-      <p></p>
-      <p></p>
-      <h2>6. <a href="url-safety.html" target="_blank">URL SAFETY</a></h2>
-      <p>The URL Safety list offers a variety of tools and services for assessing the security of web addresses.</p>
-      <p>VirusTotal URL Scanner enables users to scan URLs with multiple antivirus engines, providing comprehensive reports on potential threats.</p>
-      <p>IPVoid Screenshot Tool facilitates visual inspection and documentation of online content.</p>
-      <p>URLScan Search provides detailed insights into URLs, including historical data and associated threats, enhancing users' understanding of potential risks.</p>
-      <p>Cloudflare Radar Scan, PhishTank and AbuseIPDB offer databases of reported phishing websites and malicious IP addresses, respectively, empowering users to identify and block potential threats to network security</p>
-      <p></p>
-      <p></p>
-      <h2>7. <a href="reporting.html" target="_blank">REPORTING TOOLS</a></h2>
-      <p>The Reporting Tools list offers platforms for reporting and analyzing various online threats.</p>
-      <p>Discord Report Center provides a direct channel for reporting illegal activity within Discord.</p>
-      <p>Netcraft Phishing Site Feed allows users to report suspected phishing websites, contributing to a collective effort against online scams.</p>
-      <p>Phish.Report facilitates the reporting and analysis of phishing emails, empowering users to recognize and avoid such threats.</p>
-      <p>While these platforms offer valuable reporting mechanisms, user feedback suggests potential limitations in response effectiveness and timeliness.</p>
-      <p></p>
-      <p></p>
-      <h2>8. <a href="sinewave-tools.html" target="_blank">SINEWAVE'S TOOLS</a></h2>
-      <p>SINEWAVE's Tools list offers a diverse array of tools and bots designed for various cybersecurity and Discord-related tasks.</p>
-      <p>From the Malicious URLs DB, offering curated lists of websites associated with malicious activities, to the URL Analysis Tool, leveraging cybersecurity services for threat detection, each tool serves a specific purpose in enhancing online security.</p>
-      <p>Additionally, Discord-specific tools like the IP Information Discord Bot and GuardianWatch-Bot provide valuable insights and organization for Discord server management.</p>
-      <p>With offerings ranging from URL analysis to Discord server security, SINEWAVE's Tools cater to a wide range of cybersecurity needs.</p>
-      <p></p>
-      <p></p>
+                </div>
 
+            </div>
+        </div>
+    </header>
+
+    <section class="topics-detail-section section-padding" id="topics-detail">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 col-12 m-auto">
+                    <h2>1. <a href="digital-forensics.html" target="_blank">DIGITAL FORENSICS</a></h2>
+                    <p>The Digital Forensics list comprises a collection of powerful tools and resources essential for investigating and analyzing digital data.</p>
+                    <p>From image forensics tools like Forensic Magnifier to database checkers such as Dehashed, each resource serves a specific purpose in uncovering digital evidence.</p>
+                    <p>Additionally, platforms like Leakedcheck_bot on Telegram and Exposed.lol offer convenient means to check for data breaches and retrieve public information.</p>
+                    <p>For more extensive searches, the Google Hacking Database provides a wealth of search queries for uncovering specific data on the internet.</p>
+                    <p>Overall, these tools and platforms empower digital investigators and cybersecurity professionals in their efforts to ensure digital security and integrity.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>2. <a href="discord-osint.html" target="_blank">DISCORD OSINT</a></h2>
+                    <p>The Discord OSINT list offers a suite of tools tailored for gathering intelligence from Discord.</p>
+                    <p>Platforms like ToolsCord and Discord Lookup provide comprehensive toolkits for exploring server, bot, and user data.</p>
+                    <p>Unfurl by DFIR.Blog specializes in extracting timestamp information from Discord-related URLs, aiding in understanding creation timelines.</p>
+                    <p>Top.gg offers insights into Discord profiles, including bot and server reviews, even after account deletion.</p>
+                    <p>Snow Stamp by Pixelatomy facilitates the extraction of date information from Discord's unique IDs, while DiscordLeaks by Unicorn Riot focuses on leaked messages from compromised servers, offering insights into individuals' activities within Discord communities.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>3. <a href="general-info.html" target="_blank">INFORMATION GATHERING</a></h2>
+                    <p>The Information Gathering list encompasses a range of tools and platforms essential for gathering intelligence online.</p>
+                    <p>Curated by Bellingcat, the Online Investigation Toolkit offers a comprehensive array of resources for digital investigations.</p>
+                    <p>Hunter.io facilitates the discovery of email addresses associated with specific domains, aiding in outreach and contact efforts.</p>
+                    <p>Shodan serves as an internet-connected device search engine, offering insights into potential vulnerabilities and aiding in cyber assessments.</p>
+                    <p>Platforms like IntelX and Epieos provide access to leaked databases and facilitate email and phone number searches, respectively, enhancing digital reconnaissance capabilities.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>4. <a href="live-analysis.html" target="_blank">LIVE ANALYSIS</a></h2>
+                    <p>The Live Analysis list features a collection of robust tools for real-time assessment and analysis of online content.</p>
+                    <p>Triage's URL and File Analysis Dashboard provide detailed security evaluations for websites, aiding in the detection of potential threats.</p>
+                    <p>VirusTotal's File Scanner offers comprehensive reports on file safety, generated by multiple antivirus engines, enhancing security assessments.</p>
+                    <p>Hybrid Analysis provides in-depth insights into file and URL behavior, leveraging automated analysis and community contributions for thorough reports.</p>
+                    <p>Media Analyzer Pro equips users with advanced tools for analyzing various media formats, empowering effective identification and mitigation of security risks associated with media files.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>5. <a href="open-source-intel.html" target="_blank">OPEN INTELLIGENCE</a></h2>
+                    <p>The Open Intelligence list offers a range of tools and platforms essential for gathering open-source intelligence (OSINT).</p>
+                    <p>OSINTLeak aids in identifying email account breaches, providing insights into potential security risks.</p>
+                    <p>OSINT Framework serves as a curated list of free OSINT tools, offering a comprehensive collection for online investigations.</p>
+                    <p> IntelX and Breach Directory enable users to search and access information from leaked databases, aiding in the identification of compromised data. </p>
+                    <p>Hashes.com Hash Decryptor assists in revealing original passwords from breached directories, enhancing security assessments.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>6. <a href="url-safety.html" target="_blank">URL SAFETY</a></h2>
+                    <p>The URL Safety list offers a variety of tools and services for assessing the security of web addresses.</p>
+                    <p>VirusTotal URL Scanner enables users to scan URLs with multiple antivirus engines, providing comprehensive reports on potential threats.</p>
+                    <p>IPVoid Screenshot Tool facilitates visual inspection and documentation of online content.</p>
+                    <p>URLScan Search provides detailed insights into URLs, including historical data and associated threats, enhancing users' understanding of potential risks.</p>
+                    <p>Cloudflare Radar Scan, PhishTank and AbuseIPDB offer databases of reported phishing websites and malicious IP addresses, respectively, empowering users to identify and block potential threats to network security</p>
+                    <p></p>
+                    <p></p>
+                    <h2>7. <a href="reporting.html" target="_blank">REPORTING TOOLS</a></h2>
+                    <p>The Reporting Tools list offers platforms for reporting and analyzing various online threats.</p>
+                    <p>Discord Report Center provides a direct channel for reporting illegal activity within Discord.</p>
+                    <p>Netcraft Phishing Site Feed allows users to report suspected phishing websites, contributing to a collective effort against online scams.</p>
+                    <p>Phish.Report facilitates the reporting and analysis of phishing emails, empowering users to recognize and avoid such threats.</p>
+                    <p>While these platforms offer valuable reporting mechanisms, user feedback suggests potential limitations in response effectiveness and timeliness.</p>
+                    <p></p>
+                    <p></p>
+                    <h2>8. <a href="sinewave-tools.html" target="_blank">SINEWAVE'S TOOLS</a></h2>
+                    <p>SINEWAVE's Tools list offers a diverse array of tools and bots designed for various cybersecurity and Discord-related tasks.</p>
+                    <p>From the Malicious URLs DB, offering curated lists of websites associated with malicious activities, to the URL Analysis Tool, leveraging cybersecurity services for threat detection, each tool serves a specific purpose in enhancing online security.</p>
+                    <p>Additionally, Discord-specific tools like the IP Information Discord Bot and GuardianWatch-Bot provide valuable insights and organization for Discord server management.</p>
+                    <p>With offerings ranging from URL analysis to Discord server security, SINEWAVE's Tools cater to a wide range of cybersecurity needs.</p>
+                    <p></p>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
     </section>
 
-  </main>
+</main>
 
-  <footer>
-    <p>GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
-  </footer>
+<footer class="site-footer section-padding section-bg">
+    <div class="container">
+        <div class="row">
 
-  <script src="script.js"></script>
+            <div class="col-lg-3 col-md-4 col-6">
+                <h6 class="site-footer-title mb-3">Threat Intelligence Center</h6>
+
+                <ul class="site-footer-links">
+                    <li class="site-footer-link-item">
+                        <a href="#section_1" class="site-footer-link">Home</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_2" class="site-footer-link">Browse Topics</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_3" class="site-footer-link">How does it work?</a>
+                    </li>
+
+                    <li class="site-footer-link-item">
+                        <a href="#section_4" class="site-footer-link">FAQs</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+
+                <p class="copyright-text mt-lg-5 mt-4">GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
+                
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>

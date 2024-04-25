@@ -2,182 +2,232 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Threat Intelligence Center - SINEWAVE's Tools</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
-  <link rel="manifest" href="site-data/site.webmanifest">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Threat Intelligence Center - Home</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- CSS FILES -->        
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+					
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="css/bootstrap-icons.css" rel="stylesheet">
+
+	<link href="css/styles.css" rel="stylesheet">      
+
 </head>
 
-<body>
+<body id="top">
 
-  <header>
-    <div class="header-left">
-      <a href="index.html"><h1>Threat Intelligence Center</h1></a>
-      <div class="sidebar-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-    </div>
-    <div class="header-right">
-      <a href="https://github.com/ThatSINEWAVE/OSINT-Toolkit" class="btn">GitHub</a>
-      <a href="https://ko-fi.com/thatsinewave" class="btn">Support Me</a>
-      <a href="https://discord.gg/2nHHHBWNDw" class="btn">Discord</a>
-      <div class="translation-dropdown">
-        <select id="language-select">
-          <option value="en">English</option>
-          <option value="ro">Romanian</option>
-        </select>
-      </div>
-    </div>
-  </header>
+<main>
 
-  <aside class="sidebar">
-    <div class="sidebar-header">
-      <div class="sidebar-header-content">
-        <h2>Menu</h2>
-        <button class="sidebar-close">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-    </div>
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<i class="bi-back"></i>
+				<span>Threat Intelligence Center</span>
+			</a>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="toolkit-faq.html">Toolkit FAQ</a>
-      <a href="discord-scams.html">Discord FAQ</a>
-      <a href="steam-scams.html">Steam FAQ</a>
-      <a href="digital-forensics.html">Digital Forensics</a>
-      <a href="discord-osint.html">Discord OSINT</a>
-      <a href="general-info.html">Info Gathering</a>
-      <a href="live-analysis.html">Live Analysis</a>
-      <a href="open-source-intel.html">Open Intel</a>
-      <a href="url-safety.html">URL Safety</a>
-      <a href="reporting.html">Reporting Tools</a>
-      <a href="sinewave-tools.html">SINEWAVE's Tools</a>
-      <a href="about.html">About</a>
-      <a href="license.html">License</a>
-    </nav>
+			<div class="d-lg-none ms-auto me-4">
+				<a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+			</div>
 
-  </aside>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-  <main>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-lg-5 me-lg-auto">
+					<li class="nav-item">
+						<a class="nav-link click-scroll" href="index.html#section_1">Home</a>
+					</li>
 
-    <section id="category-pages">
+					<li class="nav-item">
+						<a class="nav-link click-scroll" href="index.html#section_2">Browse Topics</a>
+					</li>
 
-      <h1>SINEWAVE's Tools</h1>
-      <ul>
-        <li>
-          <h3>1. Malicious URLs DB</h3>
-          <a href="https://thatsinewave.github.io/Malicious-URLs-DB" target="_blank">https://thatsinewave.github.io/Malicious-URLs-DB</a>
-          <p>This serves as a curated JSON file containing lists of websites associated with malicious activities with a nice web interface that allows you to analyse the data.</p>
-          <p>The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>2. Password Generator</h3>
-          <a href="https://thatsinewave.github.io/Password-Generator" target="_blank">https://thatsinewave.github.io/Password-Generator</a>
-          <p>This repository contains a simple password generator application implemented in Python using the CustomTkinter library for the graphical user interface as a script or directly in your browser.</p>
-          <p>The application allows users to generate up to random passwords with various customizable options.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>3. Discord Invite Finder</h3>
-          <a href="https://github.com/ThatSINEWAVE/Discord-Invite-Finder" target="_blank">https://github.com/ThatSINEWAVE/Discord-Invite-Finder</a>
-          <p>This Python script is designed to search for active Discord invites links by generating random invite IDs and checking their status.</p>
-          <p>It utilizes the Discord API to verify whether an invitation is active or not and saves the results in JSON format.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>4. URL Analysis Tool</h3>
-          <a href="https://github.com/ThatSINEWAVE/URL-Analysis-Tool" target="_blank">https://github.com/ThatSINEWAVE/URL-Analysis-Tool</a>
-          <p>This repository contains a Python-based tool for analyzing URLs and detecting potential threats using various cybersecurity services like VirusTotal and URLScan.io.</p>
-          <p>The tool combines the scan results with WHOIS information and provides a user-friendly interface to tweet the analysis findings or custom messages.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>5. IP Information Discord Bot</h3>
-          <a href="https://github.com/ThatSINEWAVE/IP-Lookup-Bot" target="_blank">https://github.com/ThatSINEWAVE/IP-Lookup-Bot</a>
-          <p>This is a Discord bot that allows users to check detailed information about any IP address using the ip-api.com API.</p>
-          <p>The bot provides information such as country, city, region, district, zip code, latitude, longitude, timezone, currency, ISP, organization, AS number, AS name, reverse DNS, mobile status, proxy status, and hosting status.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>6. GuardianWatch-Bot</h3>
-          <a href="https://github.com/ThatSINEWAVE/GuardianWatch-Bot" target="_blank">https://github.com/ThatSINEWAVE/GuardianWatch-Bot</a>
-          <p>This bot is your go-to tool for gathering and organizing information about Discord server members efficiently.</p>
-          <p>Written entirely in Python and leveraging the power of Discord's Bot API along with the Google Sheets API, this bot offers versatility and ease of use across its three distinct modes: gsheets-mode, csv-mode, and combined-mode.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>7. LinkWarden-Bot</h3>
-          <a href="https://github.com/ThatSINEWAVE/LinkWarden-Bot" target="_blank">https://github.com/ThatSINEWAVE/LinkWarden-Bot</a>
-          <p>This Discord bot, designed for personal and community use, enhances server security by scrutinizing links shared within Discord channels.</p>
-          <p>It leverages the VirusTotal API, WHOIS lookups, and urlscan.io scans to provide comprehensive real-time analysis, helping maintain a safe online environment for members.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>8. Netcraft API Client</h3>
-          <a href="https://github.com/ThatSINEWAVE/Netcraft-API-Client" target="_blank">https://github.com/ThatSINEWAVE/Netcraft-API-Client</a>
-          <p>This Python script provides a command-line interface for interacting with the Netcraft API.</p>
-          <p> It allows users to perform various actions such as reporting malicious URLs, malicious emails, and incorrectly blocked URLs, as well as retrieving details about submitted reports.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>9. DNS-Filters</h3>
-          <a href="https://github.com/ThatSINEWAVE/DNS-Filters" target="_blank">https://github.com/ThatSINEWAVE/DNS-Filters</a>
-          <p>This repository houses a curated collection of DNS filter lists, accumulated over several years.</p>
-          <p>These lists are designed to enhance network security and efficiency by blocking unwanted or harmful domains.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>10. The Discord Invite Project</h3>
-          <a href="https://thatsinewave.github.io/Discord-Invite-Project" target="_blank">https://thatsinewave.github.io/Discord-Invite-Project</a>
-          <p>This repository serves as an educational and research platform exploring the concept of creating a database to track and analyze Discord invite links.</p>
-          <p>The project aims to assist in Open Source Intelligence (OSINT) investigations by providing tools to identify and study Discord servers, including potentially malicious ones.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>11. Discord Honeypot System - CONCEPT</h3>
-          <a href="https://github.com/ThatSINEWAVE/Discord-Honeypot-System" target="_blank">https://github.com/ThatSINEWAVE/Discord-Honeypot-System</a>
-          <p>The Discord Honeypot System is a sophisticated monitoring tool designed to enhance server security and moderation efficiency.</p>
-          <p>Utilizing multiple Discord accounts, each running in dedicated Virtual Machines (VMs) or Docker containers, this Python-based system automates the surveillance of direct message (DM) activity.</p>
-          <p> Its primary objective is to detect, capture, and relay suspicious or unwanted DM communications to a specific channel within a designated server for further action by the moderation team.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>12. Discord Identity Generator</h3>
-          <a href="https://thatsinewave.github.io/Discord-Identity" target="_blank">https://thatsinewave.github.io/Discord-Identity</a>
-          <p>This project is a Discord profile identity generator hosted on GitHub Pages.</p>
-          <p>It enables users to create random Discord profiles with unique usernames, about me sections, nicknames, pronouns, and profile images with up to 100 quadrillion unique profiles.</p>
-        </li>
-      </ul>
+					<li class="nav-item">
+						<a class="nav-link click-scroll" href="index.html#section_3">How does it work?</a>
+					</li>
 
-    </section>
+					<li class="nav-item">
+						<a class="nav-link click-scroll" href="index.html#section_4">FAQs</a>
+					</li>
 
-  </main>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
 
-  <footer>
-    <p>GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
-  </footer>
+						<ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+							<li><a class="dropdown-item" href="https://discord.gg/2nHHHBWNDw">Discord</a></li>
+							<li><a class="dropdown-item" href="https://github.com/ThatSINEWAVE/OSINT-Toolkit">Github</a></li>
+							<li><a class="dropdown-item" href="https://ko-fi.com/thatsinewave">Support Me</a></li>
+						</ul>
+					</li>
 
-  <script src="script.js"></script>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Languages</a>
+
+						<ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+							<li><a class="dropdown-item" href="">English</a></li>
+							<li><a class="dropdown-item" href="">Romanian</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="d-none d-lg-block">
+					<a href="#top" class="navbar-icon bi-arrow-up smoothscroll"></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	
+	<header class="site-header d-flex flex-column justify-content-center align-items-center">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+
+				<div class="col-lg-5 col-12 mb-5">
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+
+							<li class="breadcrumb-item active" aria-current="page">SINEWAVE's Tools</li>
+						</ol>
+					</nav>
+
+					<h2 class="text-white"><br>SINEWAVE's Tools</h2>
+
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<section class="topics-detail-section section-padding" id="topics-detail">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-8 col-12 m-auto">
+
+					<h3>1. Malicious URLs DB</h3>
+					<a href="https://thatsinewave.github.io/Malicious-URLs-DB" target="_blank">https://thatsinewave.github.io/Malicious-URLs-DB</a>
+					<p>This serves as a curated JSON file containing lists of websites associated with malicious activities with a nice web interface that allows you to analyse the data.</p>
+					<p>The list is compiled based on personal findings of the repository owner and are intended to help identify and mitigate threats posed by these sites.</p>
+
+					<h3>2. Password Generator</h3>
+					<a href="https://thatsinewave.github.io/Password-Generator" target="_blank">https://thatsinewave.github.io/Password-Generator</a>
+					<p>This repository contains a simple password generator application implemented in Python using the CustomTkinter library for the graphical user interface as a script or directly in your browser.</p>
+					<p>The application allows users to generate up to random passwords with various customizable options.</p>
+
+					<h3>3. Discord Invite Finder</h3>
+					<a href="https://github.com/ThatSINEWAVE/Discord-Invite-Finder" target="_blank">https://github.com/ThatSINEWAVE/Discord-Invite-Finder</a>
+					<p>This Python script is designed to search for active Discord invites links by generating random invite IDs and checking their status.</p>
+					<p>It utilizes the Discord API to verify whether an invitation is active or not and saves the results in JSON format.</p>
+
+					<h3>4. URL Analysis Tool</h3>
+					<a href="https://github.com/ThatSINEWAVE/URL-Analysis-Tool" target="_blank">https://github.com/ThatSINEWAVE/URL-Analysis-Tool</a>
+					<p>This repository contains a Python-based tool for analyzing URLs and detecting potential threats using various cybersecurity services like VirusTotal and URLScan.io.</p>
+					<p>The tool combines the scan results with WHOIS information and provides a user-friendly interface to tweet the analysis findings or custom messages.</p>
+
+					<h3>5. IP Information Discord Bot</h3>
+					<a href="https://github.com/ThatSINEWAVE/IP-Lookup-Bot" target="_blank">https://github.com/ThatSINEWAVE/IP-Lookup-Bot</a>
+					<p>This is a Discord bot that allows users to check detailed information about any IP address using the ip-api.com API.</p>
+					<p>The bot provides information such as country, city, region, district, zip code, latitude, longitude, timezone, currency, ISP, organization, AS number, AS name, reverse DNS, mobile status, proxy status, and hosting status.</p>
+
+					<h3>6. GuardianWatch-Bot</h3>
+					<a href="https://github.com/ThatSINEWAVE/GuardianWatch-Bot" target="_blank">https://github.com/ThatSINEWAVE/GuardianWatch-Bot</a>
+					<p>This bot is your go-to tool for gathering and organizing information about Discord server members efficiently.</p>
+					<p>Written entirely in Python and leveraging the power of Discord's Bot API along with the Google Sheets API, this bot offers versatility and ease of use across its three distinct modes: gsheets-mode, csv-mode, and combined-mode.</p>
+
+					<h3>7. LinkWarden-Bot</h3>
+					<a href="https://github.com/ThatSINEWAVE/LinkWarden-Bot" target="_blank">https://github.com/ThatSINEWAVE/LinkWarden-Bot</a>
+					<p>This Discord bot, designed for personal and community use, enhances server security by scrutinizing links shared within Discord channels.</p>
+					<p>It leverages the VirusTotal API, WHOIS lookups, and urlscan.io scans to provide comprehensive real-time analysis, helping maintain a safe online environment for members.</p>
+
+					<h3>8. Netcraft API Client</h3>
+					<a href="https://github.com/ThatSINEWAVE/Netcraft-API-Client" target="_blank">https://github.com/ThatSINEWAVE/Netcraft-API-Client</a>
+					<p>This Python script provides a command-line interface for interacting with the Netcraft API.</p>
+					<p> It allows users to perform various actions such as reporting malicious URLs, malicious emails, and incorrectly blocked URLs, as well as retrieving details about submitted reports.</p>
+
+					<h3>9. DNS-Filters</h3>
+					<a href="https://github.com/ThatSINEWAVE/DNS-Filters" target="_blank">https://github.com/ThatSINEWAVE/DNS-Filters</a>
+					<p>This repository houses a curated collection of DNS filter lists, accumulated over several years.</p>
+					<p>These lists are designed to enhance network security and efficiency by blocking unwanted or harmful domains.</p>
+
+					<h3>10. The Discord Invite Project</h3>
+					<a href="https://thatsinewave.github.io/Discord-Invite-Project" target="_blank">https://thatsinewave.github.io/Discord-Invite-Project</a>
+					<p>This repository serves as an educational and research platform exploring the concept of creating a database to track and analyze Discord invite links.</p>
+					<p>The project aims to assist in Open Source Intelligence (OSINT) investigations by providing tools to identify and study Discord servers, including potentially malicious ones.</p>
+
+					<h3>11. Discord Honeypot System - CONCEPT</h3>
+					<a href="https://github.com/ThatSINEWAVE/Discord-Honeypot-System" target="_blank">https://github.com/ThatSINEWAVE/Discord-Honeypot-System</a>
+					<p>The Discord Honeypot System is a sophisticated monitoring tool designed to enhance server security and moderation efficiency.</p>
+					<p>Utilizing multiple Discord accounts, each running in dedicated Virtual Machines (VMs) or Docker containers, this Python-based system automates the surveillance of direct message (DM) activity.</p>
+					<p> Its primary objective is to detect, capture, and relay suspicious or unwanted DM communications to a specific channel within a designated server for further action by the moderation team.</p>
+
+					<h3>12. Discord Identity Generator</h3>
+					<a href="https://thatsinewave.github.io/Discord-Identity" target="_blank">https://thatsinewave.github.io/Discord-Identity</a>
+					<p>This project is a Discord profile identity generator hosted on GitHub Pages.</p>
+					<p>It enables users to create random Discord profiles with unique usernames, about me sections, nicknames, pronouns, and profile images with up to 100 quadrillion unique profiles.</p>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<footer class="site-footer section-padding section-bg">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-3 col-md-4 col-6">
+				<h6 class="site-footer-title mb-3">Threat Intelligence Center</h6>
+
+				<ul class="site-footer-links">
+					<li class="site-footer-link-item">
+						<a href="#section_1" class="site-footer-link">Home</a>
+					</li>
+
+					<li class="site-footer-link-item">
+						<a href="#section_2" class="site-footer-link">Browse Topics</a>
+					</li>
+
+					<li class="site-footer-link-item">
+						<a href="#section_3" class="site-footer-link">How does it work?</a>
+					</li>
+
+					<li class="site-footer-link-item">
+						<a href="#section_4" class="site-footer-link">FAQs</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+
+				<p class="copyright-text mt-lg-5 mt-4">GLWTS Public License &copy; 2024 - ThatSINEWAVE</p>
+				
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>
+
+
