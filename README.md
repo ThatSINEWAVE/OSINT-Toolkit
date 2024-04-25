@@ -30,6 +30,23 @@ Feel free to explore each category to discover various tools and websites releva
 
 Please refer to the individual sections below for detailed information on each category and the tools/sites included. If you're interested in contributing to this repository, please see the "Contributing" section at the end of this README.
 
+## Contributing
+
+Your contributions to this OSINT toolkit are highly appreciated! 
+If you know of any valuable tools or websites that are not listed here, please feel free to contribute by submitting a pull request. 
+Here's how you can contribute:
+
+1. Fork this repository.
+2. Add your tool/website to the appropriate category, providing a brief description and any relevant information.
+3. Ensure your additions follow the existing format.
+4. Create a pull request and explain your changes.
+
+Thank you for helping to make this OSINT toolkit a valuable resource for the community!
+
+### Contributors
+
+- Thanks to [**Sanchita Chaurasia**](https://github.com/sanchitachaurasia) for the amazing work making the complete frontend overhaul, improving the site completely.
+
 <div align="center">
 
 # [Join my discord server](https://discord.gg/2nHHHBWNDw)
@@ -71,7 +88,7 @@ Please refer to the individual sections below for detailed information on each c
 Description: Unfurl is a tool specifically designed for extracting additional timestamp information from Discord-related URLs of interest. It focuses on Discord IDs, such as those for users, channels, servers, or file attachments. Unfurl can reveal embedded timestamps, aiding in understanding when a particular Discord object was created.
 
 4. **[Top.gg](https://top.gg/)**:
-   - Top.gg is a platform that, when navigated to with a user's ID (https://top.gg/user/), provides information about their profile. This includes details about bots and servers reviewed on Top.gg, Discord username, and other relevant information. Even after an account deletion, this information may be preserved if the user signed into Top.gg using Discord.
+   - Top.gg is a platform that, when navigated to with a user's ID (https://top.gg/user/), provides information about their profile. This includes details about bots and servers reviewed on Top.gg, Discord username, and other relevant information. Even after an account deletion, this information may be preserved if the user signed in to Top.gg using Discord.
 
 5. **[Snow Stamp by Pixelatomy](https://pixelatomy.com/snow-stamp/)**:
    - Snow Stamp is a snowflake timestamp converter designed for extracting date information from Discord's unique snowflake IDs. It is a valuable tool for understanding the timing of various Discord events, as each snowflake ID carries embedded timestamp data.
@@ -183,7 +200,7 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
     - Netcraft's Phishing Site Feed provides a platform for reporting suspected phishing websites. Users can submit URLs they believe to be phishing sites, contributing to a collective effort to identify and combat online phishing attacks.
 
 3. **[Phish.Report](https://phish.report)**:
-    - Phish.Report is a community-driven platform dedicated to reporting and analyzing phishing emails. Users can submit suspicious emails, allowing others to review and assess potential threats. By crowdsourcing information about phishing attempts, Phish.Report helps raise awareness and provides valuable insights into the tactics used by cybercriminals.
+    - Phish.Report is a community-driven platform dedicated to reporting and analyzing phishing emails. Users can submit suspicious emails, allowing others to review and assess potential threats. By crowd sourcing information about phishing attempts, Phish.Report helps raise awareness and provides valuable insights into the tactics used by cybercriminals.
 
 ## 8. [SINEWAVE's Tools](https://thatsinewave.github.io/OSINT-Toolkit/sinewave-tools.html)
 
@@ -234,19 +251,6 @@ Description: Unfurl is a tool specifically designed for extracting additional ti
 ## 11. [Discord Scam FAQ](https://thatsinewave.github.io/OSINT-Toolkit/discord-scams.html)
 - The Discord FAQ is a comprehensive guide aimed at informing users about prevalent scams and fraudulent activities encountered within the Discord community. Covering a wide array of topics such as impersonation, free Nitro scams, QR code and download scams, compromised accounts, and reporting malicious content/behavior, the FAQ equips users with essential knowledge and strategies to safeguard themselves against online threats. By promoting skepticism, vigilance, and proactive reporting, it fosters a safer and more secure environment for Discord users, enhancing trust and confidence within the platform's vibrant community.
 - The contents of this page can also be viewed in the [Discord-Scam-FAQ.md file](https://github.com/ThatSINEWAVE/OSINT-Toolkit/blob/main/faq/Discord-Scams-FAQ.md)
-
-## Contributing
-
-Your contributions to this OSINT toolkit are highly appreciated! 
-If you know of any valuable tools or websites that are not listed here, please feel free to contribute by submitting a pull request. 
-Here's how you can contribute:
-
-1. Fork this repository.
-2. Add your tool/website to the appropriate category, providing a brief description and any relevant information.
-3. Ensure your additions follow the existing format.
-4. Create a pull request and explain your changes.
-
-Thank you for helping to make this OSINT toolkit a valuable resource for the community!
 
 ## [License](https://thatsinewave.github.io/OSINT-Toolkit/license.html)
 
