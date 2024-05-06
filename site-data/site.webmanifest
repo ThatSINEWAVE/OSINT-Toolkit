@@ -2,7 +2,7 @@
   "name": "OSINT Toolkit by SINEWAVE",
   "description": "Comprehensive toolkit for your OSINT needs",
   "short_name": "OSINT Toolkit",
-  "start_url": "/",
+  "start_url": "/OSINT-Toolkit",
   "orientation": "portrait",
   "lang": "en-US",
   "icons": [
