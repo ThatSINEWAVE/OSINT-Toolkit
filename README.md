@@ -45,7 +45,9 @@ Thank you for helping to make this OSINT toolkit a valuable resource for the com
 
 ### Contributors
 
-- Thanks to [**Sanchita Chaurasia**](https://github.com/sanchitachaurasia) for the amazing work making the complete frontend overhaul, improving the site completely.
+- Thanks to [**Sanchita Chaurasia**](https://github.com/sanchitachaurasia) for the amazing work making the complete frontend overhaul, improving the site completely. [Pull Request here](https://github.com/ThatSINEWAVE/OSINT-Toolkit/pull/4)
+- Thanks to [**wqu7l3br03**](https://github.com/wqu7l3br03) for adding [OSINT.ly](https://osint.ly/) in the toolkit. [Pull Request Here](https://github.com/ThatSINEWAVE/OSINT-Toolkit/pull/5)   
+- Thanks to [**HTMLSlander**](https://github.com/HTMLSlander) for the improvements on the navbar. [Pull Request Here](https://github.com/ThatSINEWAVE/OSINT-Toolkit/pull/7)
 
 <div align="center">
 
