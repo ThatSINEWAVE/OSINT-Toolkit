@@ -78,6 +78,9 @@ Thank you for helping to make this OSINT toolkit a valuable resource for the com
 7. [**Facebook Comment Picker**](https://commentpicker.com/find-facebook-id.php/):
    - This tool is useful for researching Facebook profiles by extracting information from Facebook comments. It assists in finding Facebook IDs, aiding in the identification and analysis of user profiles on the social media platform.
 
+8. [**Hudson Rock**](https://www.hudsonrock.com/threat-intelligence-cybercrime-tools):
+   - Free cybercrime/infostealer intelligence toolkit to check if a specific username, email address, or domain was compromised in a global Infostealer malware attack. 
+
 ## 2. [**Discord OSINT Tools**](https://thatsinewave.github.io/OSINT-Toolkit/discord-osint.html):
 
 1. [**ToolsCord**](https://toolscord.com/):
